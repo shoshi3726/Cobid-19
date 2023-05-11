@@ -65,9 +65,6 @@ def get_record():
     # add message to the response
     response = {'message': 'The details of the ID card you submitted are:', 'record': record}
 
-    # if len(record_df) > 0:
-    #     record_df[0]['picture_url'] = record_df('get_user_picture', filename=record_df[0]['picture'])
-    #     return jsonify(record_df[0])
 
     if covidDetails_df.empty:
         return jsonify(response), 200
@@ -119,7 +116,6 @@ def insert_record():
             m2 = vaccination_record['Manufacturer of Second Vaccination']
             m3 = vaccination_record['Manufacturer of Third Vaccination']
             m4 = vaccination_record['Manufacturer of Fourth Vaccination']
-            #print(m1,m2,m3,m4)
 
             first_vaccine_date = vaccination_record['Date of First Vaccination']
             second_vaccine_date = vaccination_record['Date of Second Vaccination']
@@ -180,7 +176,6 @@ def insert_personal_details():
     df.loc[len(df)] = user_record
     # save the data frame to file
     df.to_csv('userDetails.csv', index=False)
-    print(df)
     return jsonify({'message': 'Only user details have been inserted'})
 
 @app.route('/insertVaccinationsDetails', methods=['POST'])
@@ -318,7 +313,6 @@ def add_user_picture():
         # Add the filename to the user details dataframe
         df.loc[df['ID'].astype(str) == str(id), 'picture'] = filename
         df.to_csv('userDetails.csv', index=False)
-        print(df[df['ID'].astype(str) == str(id)]['picture'])
 
         return jsonify({'message': 'Picture added successfully'})
     else:
