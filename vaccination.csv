@@ -1,0 +1,6 @@
+ID,Date of First Vaccination,Manufacturer of First Vaccination,Date of Second Vaccination,Manufacturer of Second Vaccination,Date of Third Vaccination,Manufacturer of Third Vaccination,Date of Fourth Vaccination,Manufacturer of Fourth Vaccination,Start Date,Recovery Date
+123333333,01/04/2021,Pfizer,22/04/2021,Pfizer,13/05/2021,Pfizer,03/06/2021,Pfizer,15/03/2021,01/04/2021
+456666666,15/05/2021,Moderna,09/06/2021,Moderna,30/06/2021,Moderna,21/07/2021,Moderna,01/04/2021,15/04/2021
+777777777,30/06/2021,AstraZeneca,28/07/2021,AstraZeneca,18/08/2021,AstraZeneca,07/09/2021,AstraZeneca,15/05/2021,01/06/2021
+188989256,01/05/2022,Moderna,22/05/2022,Moderna,24/05/2022,Moderna,25/05/2022,Moderna,01/05/2023,29/06/2023
+188979256,01/05/2022,Moderna,22/05/2022,Moderna,24/05/2022,Moderna,25/05/2022,Moderna,01/05/2023,29/06/2023

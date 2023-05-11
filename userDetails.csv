@@ -1,0 +1,6 @@
+name,ID,city,street,house_number,birthdate,home_phone_number,phone_number,picture,picture_url
+Alice,123333333,New York,Broadway,10,1990-01-01,111-111-1111,444-444-4444,,
+Bob,456666666,Paris,Champs-Élysées,20,1980-02-02,222-222-2222,555-555-5555,image.jpg,http://localhost:5000/uploads/image.jpg
+Charlie,777777777,London,Baker Street,30,1970-03-03,333-333-3333,666-666-6666,,
+Roni,188989256,tel aviv,Shibuya,7,22/06/1995,555-6789,555-5555,,
+Roni,188979256,tel aviv,Shibuya,7,22/06/1995,555-6789,555-5555,,
